@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(231, 209, 216);
+}
+header{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+     display: flex;
+     background-color: rgb(212, 160, 177);
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.logo span{
+    color: rgb(212, 31, 31);
+}
+.menu a{
+    position: relative;
+    left: 200PX;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.right img
+{position: relative;
+    top: 100px;
+    height:500px;
+    width:500px;
+}
+.h-text{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    line-height: 5px;
+}
+.h-text h1{
+    font-size: 3rem;
+}
+.h-text h3 span{
+    color: rgb(198, 9, 9);
+}
+.left1 img{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right1{
+    font-size: 20px;
+}
+.right1 p{
+    position: relative;
+    bottom: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 350px;
+    line-height: 30px;
+}
+.right1 h2{
+    position: relative;
+    bottom: 350px;
+    left: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont1 p{ position: relative;
+    left: 100px;
+    top: 100px;
+
+}
+.container {
+  width: 50%; 
+  background-color: #ddd; 
+  position: relative;
+  left:100px;
+  top: 100px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 50%; background-color: #f44336;}
+.php {width: 70%; background-color: #808080;}
+
+.cont-img img{
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+    height: 300px;
+    width: 300px;
+
+}
+.container1 {
+    position: relative;
+    left: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type=text], select, textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4551a0;    
+}
+ .service{
+    align-items: center;
+    position: relative;
+    left: 300px;
+    top: 100px;
+ }
